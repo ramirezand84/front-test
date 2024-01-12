@@ -1,22 +1,27 @@
 {
-  "name": "my-ts-app",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "14.0.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "20.10.8",
-    "@types/react": "18.2.47",
-    "eslint": "7.32.0",
-    "eslint-config-next": "14.0.4",
-    "typescript": "5.3.3"
-  }
+    "name": "user-app",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 3001",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "next": "14.0.4",
+        "react": "18.2.0",
+        "react-datepicker": "^4.25.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "20.10.8",
+        "@types/react": "18.2.47",
+        "@types/react-datepicker": "^4.19.5",
+        "eslint": "7.32.0",
+        "eslint-config-next": "14.0.4",
+        "eslint-import-resolver-typescript": "^3.6.1",
+        "prettier": "^3.1.1",
+        "typescript": "5.3.3"
+    }
 }
